@@ -1,0 +1,22 @@
+{
+  "name": "devai-tools",
+  "version": "2.1.0",
+  "description": "AI developer tools - pay per use via x402 protocol",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@x402/core": "*",
+    "@x402/evm": "*",
+    "@x402/express": "*",
+    "express": "^4.18.0"
+  },
+  "keywords": ["ai", "developer-tools", "x402", "pay-per-use", "code-review"],
+  "license": "MIT",
+  "homepage": "https://automatonv20-tech.github.io"
+}
